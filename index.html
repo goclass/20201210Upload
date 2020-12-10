@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        .square {
+            padding-left: 10px;
+            border-left-style: solid;
+            border-left-width: 40px;
+            border-left-color: aquamarine;
+        }
+    </style>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><img src="images/logo_blue.png" alt="" style="width:40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <img src="images/portfolio-img1.jpg" alt="" style="max-width: 100%">
+                    <h2>MVC書籍</h2>
+                    <p>本書由淺入深，一步步帶領讀者進入 ASP.NET MVC的技術，是一本入門好上手的技術學習書籍。</p>
+                    <a href="#" class="btn btn-primary">Try to read</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <img src="images/portfolio-img2.jpg" alt="" style="max-width: 100%">
+                    <h2>健保無限加</h2>
+                    <p>將處方傳送到指定藥局以利藥局進行備藥；藥局也可以對病人發送領藥推播通知，解決藥局通知病人領藥的行政作業。</p>
+                    <a href="#" class="btn btn-primary">Try to read</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <img src="images/portfolio-img3.jpg" alt="" style="max-width: 100%">
+                    <h2>教育訓練</h2>
+                    <p>包含雲端技術、網站開發、設計模式、視覺設計相關等，使用技術包含C#、Java、Android、PHP、ASP.NET...等。</p>
+                    <a href="#" class="btn btn-primary">Try to read</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="square">代理產品-最賺錢的好幫手</h2>
+                <p>主要代理雲揚科技公司的健保處方簽申報軟體與POS系統為主，適用於百貨、零售、餐飲業...。</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/portfolio-img4.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">            
+            <div class="col-md-7 order-md-2">
+
+                <h2 class="square">Contact Us</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input class="form-control" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea class="form-control" name="" id="" cols="30" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid my-4">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+
+            </div>  
+            <div class="col-md-5 order-md-1">
+                    <h2 class="square">Contact</h2>
+                    <ul>
+                        <li style="margin-top:10px;">Phone:04-23424234</li>
+                        <li style="margin-top:10px;">Email:666@nfu.edu.tw</li>
+                        <li style="margin-top:10px;">Address: kdslfkj;lasdjfk;lsadf</li>
+                    </ul>
+                </div>          
+        </div>
+        <hr>      
+
+        <div class="footer my-2">
+                <p class="float-end"><a href="#">Go to TOP</a></p>
+                <p>@copyright 2020 xxkljcl;kljcjk;lkjckckl</p>
+            </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
